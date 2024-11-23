@@ -1,11 +1,11 @@
 package parkmanager;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
 import static parkmanager.utils.StringUtils.OPENING_HOURS;
 import static parkmanager.utils.StringUtils.SAFETY_MESSAGE;
 import static parkmanager.utils.StringUtils.WELCOME_MESSAGE;
+
+import org.junit.Test;
 
 public class MainTest {
 
