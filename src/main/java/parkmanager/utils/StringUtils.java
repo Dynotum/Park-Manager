@@ -1,7 +1,7 @@
 package parkmanager.utils;
 
 public class StringUtils {
-    public static String WELCOME_MESSAGE =
+    public static final String WELCOME_MESSAGE =
             """
             **********************************************
             *                                            *
@@ -10,7 +10,7 @@ public class StringUtils {
             **********************************************
             """;
 
-    public static String OPENING_HOURS =
+    public static final String OPENING_HOURS =
             """
             **********************************************
             *                                            *
@@ -21,7 +21,7 @@ public class StringUtils {
             **********************************************
             """;
 
-    public static String SAFETY_MESSAGE =
+    public static final String SAFETY_MESSAGE =
             """
             **********************************************
             *                                            *
