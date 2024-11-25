@@ -10,5 +10,16 @@ public class Main {
         System.out.println(WELCOME_MESSAGE);
         System.out.println(OPENING_HOURS);
         System.out.println(SAFETY_MESSAGE);
+        System.out.println();
+        final var littlefoot =
+                Dinosaur.Builder.builder()
+                        .name("Littlefoot")
+                        .age(5)
+                        .species("Apatosaurus")
+                        .diet(Diet.HERBIVORE)
+                        .weight(212.5)
+                        .build();
+
+        System.out.println(littlefoot.getProfile());
     }
 }

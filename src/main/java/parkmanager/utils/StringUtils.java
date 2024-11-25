@@ -31,4 +31,9 @@ public class StringUtils {
             *                                            *
             **********************************************
             """;
+
+    public static final String PROFILE_MESSAGE =
+            """
+    Meet %s, %s-year-old %s. As a %s, it has a robust weight of %s kilograms.%n
+    """;
 }
