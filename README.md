@@ -31,3 +31,20 @@ Once you have declared and assigned values to these variables, the program shoul
 The output can be something like: 
 
 `"Meet [Name], a [Age]-year-old [Species]. As a [Diet], it has a robust weight of [Weight] kilograms.".`
+
+## Chapter 3
+
+
+##### **_Dino meal planner_**
+
+As a zookeeper in Mesozoic Eden, the crucial tasks include planning the meals for our beloved dinosaurs. While we’re not using conditionals and loops yet, we can still calculate some basic requirements!
+
+Develop a simple program to help the zookeepers plan the meal portions for different dinosaurs. The program should use the dinosaur’s weight to calculate how much food it needs to eat per meal.
+
+If you need a bit more guidance, here’s how you can do it:
+
+* Declare variables for the dinosaur’s weight and the proportion of its weight it needs to eat per day. For instance, if a dinosaur needs to eat 5% of its body weight daily, and it weighs 2,000 kg, it would need to eat 100 kg of food.
+    Now, let’s say you feed the dinosaur twice a day.
+* Declare a variable for the number of feedings and calculate how much food you need to serve per feeding. In this example, it would be 50 kg per feeding.
+    Print out the result in a meaningful way – for example, “Our 2,000 kg dinosaur needs to eat 100 kg daily, which means we need to serve 50 kg per feeding.”
+
