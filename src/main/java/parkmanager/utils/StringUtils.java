@@ -34,6 +34,11 @@ public class StringUtils {
 
     public static final String PROFILE_MESSAGE =
             """
-    Meet %s, %s-year-old %s. As a %s, it has a robust weight of %s kilograms.%n
-    """;
+            Meet %s, %s-year-old %s. As a %s, it has a robust weight of %s kilograms.%n
+            """;
+
+    public static final String WEIGHT_MESSAGE =
+            """
+            Our %s kg dinosaur needs to eat %s kg daily, which means we need to serve %s kg per feeding.
+            """;
 }
