@@ -45,6 +45,14 @@ public class Dinosaur {
         return weight;
     }
 
+    public Builder modify() {
+        return builder().name(name).age(age).species(species).weight(weight).diet(diet);
+    }
+
+    public static Builder builder() {
+        return new Builder();
+    }
+
     public static final class Builder {
         private String name;
         private int age;
