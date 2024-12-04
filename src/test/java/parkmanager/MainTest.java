@@ -2,15 +2,13 @@ package parkmanager;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-
 import static parkmanager.utils.StringUtils.OPENING_HOURS;
 import static parkmanager.utils.StringUtils.PROFILE_MESSAGE;
 import static parkmanager.utils.StringUtils.SAFETY_MESSAGE;
 import static parkmanager.utils.StringUtils.WELCOME_MESSAGE;
 
-import org.junit.Test;
-
 import java.util.Locale;
+import org.junit.Test;
 
 public class MainTest {
 
@@ -45,11 +43,18 @@ public class MainTest {
 
         final var littlefoot =
                 Dinosaur.Builder.builder()
-                        .name(name)
-                        .age(age)
-                        .species(species)
                         .diet(diet)
+                        .name(name)
+                        .name(name)
+                        .name(name)
+                        .name(name)
+                        .name(name)
+                        .name(name)
+                        .name(name)
+                        .name(name)
                         .weight(weight)
+                        .species(species)
+                        .age(age)
                         .build();
 
         // asserts primitive types

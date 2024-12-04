@@ -12,7 +12,7 @@ public class Main {
         System.out.println(SAFETY_MESSAGE);
         System.out.println();
         final var littlefoot =
-                Dinosaur.Builder.builder()
+                Dinosaur.builder()
                         .name("Littlefoot")
                         .age(5)
                         .species("Apatosaurus")
